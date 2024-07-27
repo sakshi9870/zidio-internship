@@ -1,0 +1,93 @@
+/* Add some color to the website */
+body {
+  background-color: #f7f7f7; /* light gray background */
+}
+
+.app {
+  background-color: #fff; /* white background for the app container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add some depth */
+  border-radius: 10px; /* rounded corners */
+  padding: 30px;
+}
+
+h1 {
+  color: #333; /* dark gray title */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666; /* medium gray text */
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #fff; /* white background for the form */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  border: 1px solid #ccc; /* light gray border */
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #4CAF50; /* green button */
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41; /* darker green on hover */
+}
+
+.nestedContainer {
+  margin-bottom: 20px;
+}
+
+.companies {
+  margin-bottom: 20px;
+}
+
+.currentInput {
+  width: 95%;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.container {
+  padding: 30px;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Add some animations to make the website more interactive */
+.app {
+  transition: all 0.3s ease-in-out;
+}
+
+.app:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
